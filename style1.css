@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: #d4e8ff;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+/* Задаємо пропорції для кожного блоку */
+.block-1 {
+    height: 12.5%;
+    background-color: #bfd7ff;
+    text-align: left; 
+    padding-top: 10px; 
+}
+
+.block-2 {
+    background-color: #ffdfd5;
+}
+
+.block-3 {
+    height: 12.5%;
+    background-color: #e9f7cf;
+}
+
+.block-4 {
+    background-color: #fff;
+    height: auto;
+}
+
+.block-5 {
+    background-color: #ffdfd5;
+    height: auto;
+}
+
+.block-6 {
+    height: 12.5%;
+    background-color: #bfd7ff;
+    text-align: right; 
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+
+/* Меню */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu li {
+    padding: 5px 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #0078d7;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #0056a3;
+    text-decoration: underline;
+}
+
+/* Текст і зображення */
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
